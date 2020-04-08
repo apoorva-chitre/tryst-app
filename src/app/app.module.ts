@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppointmentsComponent } from './appointments/appointments.component';
 import { MeetingsComponent } from './meetings/meetings.component';
+import { HangoutsComponent } from './hangouts/hangouts.component';
+import { SimpleStyleDirective } from './simple-style.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppointmentsComponent,
-    MeetingsComponent
+    MeetingsComponent,
+    HangoutsComponent,
+    SimpleStyleDirective
   ],
   imports: [
     BrowserModule
